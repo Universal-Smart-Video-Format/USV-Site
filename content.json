@@ -1,0 +1,41 @@
+{
+ "address": "1HDMywbRZkin9HhmheaDFHCzaZhCfLhZLH",
+ "address_index": 71796620,
+ "background-color": "#FFF",
+ "clone_root": "template-new",
+ "cloned_from": "1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D",
+ "description": "USV (Universal Smart Video), as the name says, is a format for smart/interactive videos. We can call it \"the video of the future\".",
+ "domain": "usvformat.bit",
+ "files": {
+  "index.html": {
+   "sha512": "5338ae541953d8a16eb8dd1770f85de6c087c25209f223f495061e687112d809",
+   "size": 3268
+  },
+  "js/ZeroFrame.js": {
+   "sha512": "090a43d18dcd1aa836b0d160631fe958f9fabd761af712e8eed6f7e010c0dd76",
+   "size": 2409
+  },
+  "specs.html": {
+   "sha512": "98ece13f4be69ee6378e7e721671f11c30b517ce63924208d7319310f7a46fa2",
+   "size": 590
+  }
+ },
+ "ignore": "",
+ "inner_path": "content.json",
+ "modified": 1491449232,
+ "postmessage_nonce_security": true,
+ "sign": [
+  87685435317584420070483233752813319284580305242755071592891555697549515682326,
+  98115985946401928651697761072240317162675227931336965221905640368108437472907
+ ],
+ "signers_sign": "HBLd+2QoL+XYFuY6sx7AvCE2sCUZTCFNTiSmoH2L4noLiz/ImtKps7Dm55XnUtKozWGSMpezxFjh7YuOrkbr54Y=",
+ "signs": {
+  "1HDMywbRZkin9HhmheaDFHCzaZhCfLhZLH": "HBFOxQXwHqw451cHpVea9sgxv+Cv7y1khzNgQpM6ZrAcJkj2BaekmizBzwEg1u5Sk3qbfPr5ecu+ai/yDAdH/Z4="
+ },
+ "signs_required": 1,
+ "title": "Universal Smart Video Format",
+ "translate": [
+  "js/all.js"
+ ],
+ "zeronet_version": "0.5.3"
+}
