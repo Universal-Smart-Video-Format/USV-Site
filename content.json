@@ -7,30 +7,298 @@
  "description": "USV (Universal Smart Video), as the name says, is a format for smart/interactive videos. We can call it \"the video of the future\".",
  "domain": "usvformat.bit",
  "files": {
+  ".git/COMMIT_EDITMSG": {
+   "sha512": "358d448dc2f7aa447ad93b31507b3374ae26a599b7084b74a85f78fa7c21b38e",
+   "size": 23
+  },
+  ".git/FETCH_HEAD": {
+   "sha512": "9b2564bd01bb5e560e333beb8e4d1a38f1b7e38a17a64ffb9984d00531ae6e18",
+   "size": 118
+  },
+  ".git/HEAD": {
+   "sha512": "76b199f1bffdc6d21547895431b0f85f3857df400225cbd1ae55e7ded09786a8",
+   "size": 23
+  },
+  ".git/config": {
+   "sha512": "485589e2a61d3a9b965d94c280de440a4b4bb0c66d8dc23dd0d80eb51b3d1203",
+   "size": 323
+  },
+  ".git/description": {
+   "sha512": "f7e152f75b124c3e1c5d12f00427729d9eec4e2c1bf70d7606440a6600d00336",
+   "size": 73
+  },
+  ".git/hooks/applypatch-msg.sample": {
+   "sha512": "536cce804d84e25813993efdd240537b52d00ce9cdcecf1982f85096d56a5212",
+   "size": 478
+  },
+  ".git/hooks/commit-msg.sample": {
+   "sha512": "d6bb7fa747f4625adf1877f546565cbe812ca7dd4168f7e9068e6732555d8737",
+   "size": 896
+  },
+  ".git/hooks/post-update.sample": {
+   "sha512": "473ad124642571656276bf83b9ff63ab1804d3c23a5bdae52391c6f70a894849",
+   "size": 189
+  },
+  ".git/hooks/pre-applypatch.sample": {
+   "sha512": "cb78aa7e9b9c146e5db65d86dd83f04e2b6942a06fab50c704a0fd900683f3b6",
+   "size": 424
+  },
+  ".git/hooks/pre-commit.sample": {
+   "sha512": "4a7ac2ed2ffe50d2a997c3477b5855c3d19423c295a82f7d660be3418217a183",
+   "size": 1642
+  },
+  ".git/hooks/pre-push.sample": {
+   "sha512": "37cd20a090494acb16c2255fe93dadeb409f2553afddc409dad5b5e99c9f5612",
+   "size": 1348
+  },
+  ".git/hooks/pre-rebase.sample": {
+   "sha512": "de9bdf513f383b3215e467c025ca851a0f2661b91811bfd441486b678e4d45e4",
+   "size": 4951
+  },
+  ".git/hooks/pre-receive.sample": {
+   "sha512": "ee08c11fab7e896b2e09c241954ba7640338b12c75cd8040daf053c31b2f2223",
+   "size": 544
+  },
+  ".git/hooks/prepare-commit-msg.sample": {
+   "sha512": "fbf15f12136a413dd590e57392e6122714d67456beed50d9ef285e40076a138a",
+   "size": 1239
+  },
+  ".git/hooks/update.sample": {
+   "sha512": "759abd33e5d1dda9b3e3d3116c47b23f616320d70cd66d567b1c4eeefeb6d785",
+   "size": 3610
+  },
+  ".git/index": {
+   "sha512": "fb1d9e5b83f5d4ed9b90435316cd7e67b18b0ac5dbccf09a98f1a3697e2bb119",
+   "size": 412
+  },
+  ".git/info/exclude": {
+   "sha512": "9828c6ecdf91bf117416e17f4ee9caee2e1e37b6fb00b9ff04035ace17a3089b",
+   "size": 240
+  },
+  ".git/logs/HEAD": {
+   "sha512": "06722da82b79ac97965d246bd55f6e1d58d62b8727779dbca10c23610f6db4c4",
+   "size": 366
+  },
+  ".git/logs/refs/heads/master": {
+   "sha512": "06722da82b79ac97965d246bd55f6e1d58d62b8727779dbca10c23610f6db4c4",
+   "size": 366
+  },
+  ".git/logs/refs/remotes/origin/HEAD": {
+   "sha512": "21d6f4027aa811e2729a378751dbe198380bc02f7d7f170b3549175b4adbe754",
+   "size": 204
+  },
+  ".git/objects/01/6e8aeadcc19e0d2571687b77e9923a90fbd476": {
+   "sha512": "a634c9715141219d9d3c9374ff8e8b87e9841b4e188b58c81ad75b022eb00b49",
+   "size": 55
+  },
+  ".git/objects/05/d8a3ba9cf775ae674ddaa5de058578331291f2": {
+   "sha512": "4934267ad4d35db5d7c6d8a69397f8bb1cb8d82f83b9c6cee5f6520a2128f58a",
+   "size": 1511
+  },
+  ".git/objects/05/db5a1586dcff6bc9a4684586b705911465bbb1": {
+   "sha512": "b06818151601a05474aecea3645582b7a22b667d4489466dfe8cb3526dd73ed5",
+   "size": 184
+  },
+  ".git/objects/0a/d4a1c9ef5d322e4f2e1afe366416565cda1e54": {
+   "sha512": "a3cfdb71807d79aee8ed348e2ea6f31a9f549f1442e66325f2da3510646f6823",
+   "size": 57
+  },
+  ".git/objects/10/e7575da74c42deba6a59cb3addfb198ed0cff3": {
+   "sha512": "162db705c44b026773df2a1be5c81c5e28b3087533e9d2a57c980d3863a803ef",
+   "size": 151
+  },
+  ".git/objects/18/a7c57774b3de3b693301856b8b3b20f4dab84d": {
+   "sha512": "86cbee299f70f947f196385e0d0ed3c3aae09dc3d9ab462d2fad7ff4734fd34f",
+   "size": 299
+  },
+  ".git/objects/1d/fbf1a537f13f5672c66d113833553caacc1290": {
+   "sha512": "06543734d597a7aac10c53bc90c78bdac0d1f79db82a29dc7a5cca54a3f78e9b",
+   "size": 55
+  },
+  ".git/objects/30/dd91222e9d866a8487993619c42b885db22569": {
+   "sha512": "7f5aa1f24fa6a3638084f92e559c6f276bcfd98a541c7df2e3bcc347adef9491",
+   "size": 278
+  },
+  ".git/objects/33/62d37ffd8758282e891f8817cc7797ea8e3afd": {
+   "sha512": "2570c4406c35ccb46c9a5d86968c9b3ac9c140582026b719885e58b5c236e031",
+   "size": 177
+  },
+  ".git/objects/3f/d057be81bd1842fbfa190aa872313ffde8339b": {
+   "sha512": "85acdc76f3564d42b60bd2011c8e10f4b584a9610729585ae470fd0a94e0b137",
+   "size": 1340
+  },
+  ".git/objects/43/01e00d123bb731e232c663c40ae8f2f68b7dd9": {
+   "sha512": "3b1c349c3bbb9f3d60adeecbb0cf5ef39451a42e2b248fdccb298d14506a791e",
+   "size": 1332
+  },
+  ".git/objects/45/701dbd5cc03bb1af82b6f03c64eb3551b301b5": {
+   "sha512": "3225bc7da15a6a306b31bfb98b21bd4c9cf1c73b2b6babf1cc7c60c746aa5bf8",
+   "size": 228
+  },
+  ".git/objects/58/791d4c960b0c83b49db99d437a67f11279e8a0": {
+   "sha512": "553f08fa89cb2528bcf30906ac2a07969e1904ff080a2c5b2c3630318f551f3d",
+   "size": 170
+  },
+  ".git/objects/5c/527d3e0ef3b3ab87a025c9849ad39b34d36b6b": {
+   "sha512": "d12192df546a2978fa2303daade3090bd2bc365fa4f6ea69e479beab893a0d27",
+   "size": 931
+  },
+  ".git/objects/61/fffbeacbd754f9ba281f7dbdaf2a6ce7a866ed": {
+   "sha512": "4c8ca4589a2a0de56501e2c718171d246ab3e939a3267cbceb7b58d51066a3c1",
+   "size": 85
+  },
+  ".git/objects/66/17e32ade1b4f99d7e72d42c5efdb35249b90c7": {
+   "sha512": "c652151298ecd10768f51466909ddada63371f7fe7764fda4b942268039b75c5",
+   "size": 84
+  },
+  ".git/objects/6c/0a109d5ec618fa21b06365ddfd396a9f637696": {
+   "sha512": "39757e4cd571ff284c6c58d4a064ef6351be507fd14ffe3abc1326d83d953758",
+   "size": 184
+  },
+  ".git/objects/7d/636a48df13c9be13d014edac9ab28fba3e2a6b": {
+   "sha512": "e2a75993b270dd0e152f30311a9a675a4b37d74513064e98c43a8f4437d897b3",
+   "size": 1404
+  },
+  ".git/objects/7d/6c2f949aa2e035d929b558f63271141e927466": {
+   "sha512": "bee6ec8b49d5b3cd91ebc7f3771de3c565cec306a158eedf277eb053a2a2d530",
+   "size": 184
+  },
+  ".git/objects/7d/82b3aaa75777c0b5894c0fccb97f9a40a24b01": {
+   "sha512": "ab111c8d83316d85f4448ebae2d32ba37d554aa934b6b787d2a32129cbc8c9fd",
+   "size": 1510
+  },
+  ".git/objects/7f/a1fbddc696f5d78f36f54ae6764544539e7f92": {
+   "sha512": "fdbdaeffc542fbc7ad8bbf4c8ba33583a25e12b24d682acb082bae691e4bf9a8",
+   "size": 85
+  },
+  ".git/objects/88/6d61bc533a99e74c529e9178bb34010eb170bf": {
+   "sha512": "de2111b12ae3465b0185f1a30e4ff96440c2f53eed8c7e8fbbddd991c4e55a69",
+   "size": 151
+  },
+  ".git/objects/8f/0075c8cd02e528f8e604da70994f9d17fb0f08": {
+   "sha512": "8a4d8876eda9d7a28e18d0dbef8bb82f1bd3fe339b5cc7a1eb0dc33f0895653f",
+   "size": 182
+  },
+  ".git/objects/90/c86d9db3b6d8ede8c60c262281ead7d3b64b55": {
+   "sha512": "0e4e259dc0ebeaa35df4510a378d0f46bfebc05d69b6196db07af25278ba6b54",
+   "size": 85
+  },
+  ".git/objects/93/af2a062b12790bf7cd131cde4bb4b83358b6ae": {
+   "sha512": "391097826fb03d8fcc15a09e216968041dc5d3e6dcdc48501381be938eccc430",
+   "size": 185
+  },
+  ".git/objects/a3/224b4e5a5ae0a3bb61cae6276fa2042a07ec90": {
+   "sha512": "67df24b3e8b5fce4582978b1f22b5c61720fab0a03b095713c2a95225a8ac1f7",
+   "size": 85
+  },
+  ".git/objects/a4/e57e670b58d3da00d500b1ec4f89fa9917eab4": {
+   "sha512": "f307f100f22d8550e5391f87f4664d903338e99dad3921648478490f0b8707b8",
+   "size": 1292
+  },
+  ".git/objects/a6/663bdc6b21dcb951401663d1ff977d586dbe0c": {
+   "sha512": "94d0e626f1a1679fa01ba8d522e52e032d7a14521e7806f56e3d6b15e9812251",
+   "size": 150
+  },
+  ".git/objects/a6/8e554a52eb2658f87da9f3b57581cc7b41fc97": {
+   "sha512": "cb42d2e1d9cb7b1441c54b9da652e0ff4eb2cf72a04b89503f101d6ed3b8f10c",
+   "size": 183
+  },
+  ".git/objects/ab/4a925bec2b87a4c5c76415f8ae851349a27a4b": {
+   "sha512": "baebe22fa024664c7d9090da9a20c658d9b70d7774ce17853c8a88e3d726bb5a",
+   "size": 392
+  },
+  ".git/objects/b0/4f3884c5511011032d9863626518c2b8db50e0": {
+   "sha512": "e595e7aa4fbceb2581e93f40613073b085018457a64e8f92c6ba07c35a457bc1",
+   "size": 84
+  },
+  ".git/objects/b2/79b21ab7f3db15cff986fa5337cddaf7b96bbd": {
+   "sha512": "4bb8a84960b8a49c31f176f4bbf6c914222a0f94b8b02e0020c9bb0b0facdf31",
+   "size": 185
+  },
+  ".git/objects/b4/ad3fa1c4e7ad9fcc5415a2ae4ac2c14a7549ca": {
+   "sha512": "03004dad8a5ed5b3e61a554f7e267481f403397b1d71e6471737056c5bf05094",
+   "size": 183
+  },
+  ".git/objects/bc/2887bd35de567118516d60fdb6d51e8e028ad6": {
+   "sha512": "fd234b77941836f3453e34596b742fbbe3bb25251a86113172d4946e4bb77dac",
+   "size": 262
+  },
+  ".git/objects/c2/c7929c8542c75569fdecbb7e5b7212dbd6a5af": {
+   "sha512": "c2b3ca7c1d9133c231868f0ce34b33c46fb8e6f25e9e2b457f146e51b455ab92",
+   "size": 1384
+  },
+  ".git/objects/c7/42fb82faef0323633e7dd2f64af90b224f30be": {
+   "sha512": "108b6f0614ffb5259fa4073db26a05258d1474b867bc7b165a7b4f26c0280127",
+   "size": 85
+  },
+  ".git/objects/d1/aa43eb6cc49681da60d62122dd6556bf208a6e": {
+   "sha512": "6b2fd19ae8864f518d0a10e793e1029d816ef1f47b2fcd0188d517818b403f2e",
+   "size": 55
+  },
+  ".git/objects/d2/2805214ab5938a921559ef4ba6477718a003ab": {
+   "sha512": "10d559128ba00b03814297811ef624501f2136f6b79639b704ac5bc53e8a4cb6",
+   "size": 184
+  },
+  ".git/objects/d6/34fed415b51ef44d3ae4bd5aedc102510c8748": {
+   "sha512": "60326e04a7434f2060978665674765c42e489754d79e5dc1c6ab081c6d76ef73",
+   "size": 214
+  },
+  ".git/objects/e0/5e6c4c7200fe6ce01424e20908ba511964ae33": {
+   "sha512": "98ca58f92566641a3df6ff8e1a688e1c8d8df101dc10a0abc7a0f88b9266e774",
+   "size": 1330
+  },
+  ".git/objects/eb/b27e294380aba47eb0e9bb48f9b37fbebcb186": {
+   "sha512": "023579330b9cc6391b9146b4fe9f602d706a578b7afc4bd0efd5d7a4d04b15e1",
+   "size": 185
+  },
+  ".git/objects/ee/3570d045182a718eab34e931883cadac04e1c3": {
+   "sha512": "81ee830ac88c6e5fc7059eaff525ca496b07389136993fda7ab96022cb42ff16",
+   "size": 85
+  },
+  ".git/objects/f3/e2214b3a6ab23ccbca412800db8444c089a8eb": {
+   "sha512": "b053a022847541e7cdcdac145e8d8b84840398c7d186e5aa000436734e345cb5",
+   "size": 855
+  },
+  ".git/objects/f7/6131d363e468205d580ee6266e122248efa6dc": {
+   "sha512": "a2eee5107fca941daf0f731296cc955614344eaf63d040530128fe3c3bf86482",
+   "size": 394
+  },
+  ".git/packed-refs": {
+   "sha512": "195f4f0509f38839ad0e96740711ed70ce674f2b47934597eba163a4fe61b669",
+   "size": 107
+  },
+  ".git/refs/heads/master": {
+   "sha512": "46028112f0d89a87a0ed2941ff1c09c47de1e90cfbf7bd82384773f3fc1d20fe",
+   "size": 41
+  },
+  ".git/refs/remotes/origin/HEAD": {
+   "sha512": "0d686b330d5704fdbb9588d62bbddda273f86b24db52ddbdb73c0c304aabb8e6",
+   "size": 32
+  },
   "index.html": {
-   "sha512": "5338ae541953d8a16eb8dd1770f85de6c087c25209f223f495061e687112d809",
-   "size": 3268
+   "sha512": "c0b67b530a9692efb380dc734df0279931563c25754b6e05cd64d333ce60174b",
+   "size": 3288
   },
   "js/ZeroFrame.js": {
-   "sha512": "090a43d18dcd1aa836b0d160631fe958f9fabd761af712e8eed6f7e010c0dd76",
-   "size": 2409
+   "sha512": "672291eadcac614188b41e2df665cacf0c3b1b1d775cbf8291abab2d9e669f9d",
+   "size": 2502
   },
   "specs.html": {
-   "sha512": "98ece13f4be69ee6378e7e721671f11c30b517ce63924208d7319310f7a46fa2",
-   "size": 590
+   "sha512": "78e43a033c36be1ed8224efb7d41bd288b0dada6916388dac5ecf1d50f2ee5dd",
+   "size": 587
   }
  },
  "ignore": "",
  "inner_path": "content.json",
- "modified": 1491449232,
+ "modified": 1491991165,
  "postmessage_nonce_security": true,
  "sign": [
-  87685435317584420070483233752813319284580305242755071592891555697549515682326,
-  98115985946401928651697761072240317162675227931336965221905640368108437472907
+  96702869546938368905622947074494785658213090292815769658611846380172204149299,
+  69045285158346778471471291511107086677564359494339434892061546912453179290468
  ],
- "signers_sign": "HBLd+2QoL+XYFuY6sx7AvCE2sCUZTCFNTiSmoH2L4noLiz/ImtKps7Dm55XnUtKozWGSMpezxFjh7YuOrkbr54Y=",
+ "signers_sign": "GxLd+2QoL+XYFuY6sx7AvCE2sCUZTCFNTiSmoH2L4noLdMA3ZS1WTE8ZGGoYrS1XMVkcqk77hEdZ0kbP3olKWbs=",
  "signs": {
-  "1HDMywbRZkin9HhmheaDFHCzaZhCfLhZLH": "HBFOxQXwHqw451cHpVea9sgxv+Cv7y1khzNgQpM6ZrAcJkj2BaekmizBzwEg1u5Sk3qbfPr5ecu+ai/yDAdH/Z4="
+  "1HDMywbRZkin9HhmheaDFHCzaZhCfLhZLH": "G4nhPosU6xKyl65FTsIpWuvfmGgtiChcre8biT7xyNEyVckkm139Cnk7gwKmcu2KJpMF5GTUUjMaAcvd6fnaIKU="
  },
  "signs_required": 1,
  "title": "Universal Smart Video Format",
