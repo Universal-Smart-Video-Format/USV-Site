@@ -6,13 +6,14 @@
  "cloned_from": "1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D",
  "description": "USV (Universal Smart Video), as the name says, is a format for smart/interactive videos. We can call it \"the video of the future\".",
  "domain": "usvformat.bit",
+ "favicon": "favicon.ico",
  "files": {
   ".git/COMMIT_EDITMSG": {
-   "sha512": "f0189dec2672eac23ade0a2909537a2ad634a4666f17bb287311f5f6f1dcacb1",
+   "sha512": "89730d37eb2150a8c9c663647c6dd2790729949e1a02ab79ca699a38a236ebdf",
    "size": 20
   },
   ".git/FETCH_HEAD": {
-   "sha512": "42accb120b61756866af6a0a0bca9ff009445de4f66c39fb1b0fa0e5e675fa54",
+   "sha512": "9011422467234afa42e910f472a6bc20ed57c732eff0e2a68f275f232bc8aaed",
    "size": 118
   },
   ".git/HEAD": {
@@ -24,7 +25,7 @@
    "size": 41
   },
   ".git/config": {
-   "sha512": "485589e2a61d3a9b965d94c280de440a4b4bb0c66d8dc23dd0d80eb51b3d1203",
+   "sha512": "e681bd0e53a232b3557242cd1781f38d21d201fb82cbfe345d904499ba4b9c37",
    "size": 323
   },
   ".git/description": {
@@ -72,7 +73,7 @@
    "size": 3610
   },
   ".git/index": {
-   "sha512": "779f4adfa6b631b5521d1dd26f3bd1d9a7f796b66d03c1e3e7bac7c59f28865d",
+   "sha512": "5e737f3067ccb9805e4246186f214ee3cf7f7f039f7436379a8e12cb5c83f259",
    "size": 412
   },
   ".git/info/exclude": {
@@ -80,20 +81,24 @@
    "size": 240
   },
   ".git/logs/HEAD": {
-   "sha512": "9b37de5b71e10b43b6dfe42e476e9a269d7274708a41ddd0a152eda6bf6a5af0",
-   "size": 1184
+   "sha512": "fa781f78c93fe1c9e7826989f960a89455cb5c435c189c64e9dbf31ba8ad4f37",
+   "size": 1490
   },
   ".git/logs/refs/heads/master": {
-   "sha512": "9b37de5b71e10b43b6dfe42e476e9a269d7274708a41ddd0a152eda6bf6a5af0",
-   "size": 1184
+   "sha512": "fa781f78c93fe1c9e7826989f960a89455cb5c435c189c64e9dbf31ba8ad4f37",
+   "size": 1490
   },
   ".git/logs/refs/remotes/origin/HEAD": {
    "sha512": "21d6f4027aa811e2729a378751dbe198380bc02f7d7f170b3549175b4adbe754",
    "size": 204
   },
   ".git/logs/refs/remotes/origin/master": {
-   "sha512": "40287a614c6c6d9a2d611b45a5644a3fd0218e60e47a776cb67bcd158d7ec528",
-   "size": 438
+   "sha512": "4c989723148b65e90970100e0ad06811e1037c62656c35bea7cffd0838e5cbb3",
+   "size": 584
+  },
+  ".git/objects/00/7515f03c6fdaef82b64848b0e31f4ebff39751": {
+   "sha512": "b1be37f545fc1adf6bf4600b17d0e8a4ba5180eba759ed142abc9382524885d2",
+   "size": 393
   },
   ".git/objects/01/6e8aeadcc19e0d2571687b77e9923a90fbd476": {
    "sha512": "a634c9715141219d9d3c9374ff8e8b87e9841b4e188b58c81ad75b022eb00b49",
@@ -102,6 +107,10 @@
   ".git/objects/02/17d4ab62e3c101079e6a3fa4b28a6e23d6bcf2": {
    "sha512": "b48cc2d7ecb85f7394a4a8015b66c2d21057a89b9518dc5be555908590493e64",
    "size": 165
+  },
+  ".git/objects/03/b55c6f86b22c826f1302050a54a44cb1d07f9b": {
+   "sha512": "570f038f3f478244d2eaa48f53f20fc39d2b618eebc33e225e203b4a86505076",
+   "size": 156
   },
   ".git/objects/05/d8a3ba9cf775ae674ddaa5de058578331291f2": {
    "sha512": "4934267ad4d35db5d7c6d8a69397f8bb1cb8d82f83b9c6cee5f6520a2128f58a",
@@ -122,6 +131,10 @@
   ".git/objects/10/e7575da74c42deba6a59cb3addfb198ed0cff3": {
    "sha512": "162db705c44b026773df2a1be5c81c5e28b3087533e9d2a57c980d3863a803ef",
    "size": 151
+  },
+  ".git/objects/13/6362a7a0775785b0ecda1295b0fd35439ccab6": {
+   "sha512": "30e8b4c02397ac05c2eacfb3ca8c99faff03a9885cc94456471e43b618e12e72",
+   "size": 6837
   },
   ".git/objects/18/a7c57774b3de3b693301856b8b3b20f4dab84d": {
    "sha512": "86cbee299f70f947f196385e0d0ed3c3aae09dc3d9ab462d2fad7ff4734fd34f",
@@ -187,6 +200,10 @@
    "sha512": "39757e4cd571ff284c6c58d4a064ef6351be507fd14ffe3abc1326d83d953758",
    "size": 184
   },
+  ".git/objects/7d/40ef08fe1f0f6c081f218f1a609fabed86b2d3": {
+   "sha512": "958d22eb071da5b5025203ccc1ec867e6a037981a145cb4c6d46d9ec791930f2",
+   "size": 151
+  },
   ".git/objects/7d/636a48df13c9be13d014edac9ab28fba3e2a6b": {
    "sha512": "e2a75993b270dd0e152f30311a9a675a4b37d74513064e98c43a8f4437d897b3",
    "size": 1404
@@ -206,6 +223,10 @@
   ".git/objects/83/07e5883e0913694576dcd0188643e94d6e39be": {
    "sha512": "49b91374af602f0b9a54ecb66a5c829b42dc1bb7411ad1f1a39c0620f3d4de2e",
    "size": 166
+  },
+  ".git/objects/86/3ee3f35e4d566799106901b99c42caa1d773fc": {
+   "sha512": "7200af801779891e6c927114692d5b2edc1e5477a83d996a58af2bd9d0136972",
+   "size": 151
   },
   ".git/objects/88/6d61bc533a99e74c529e9178bb34010eb170bf": {
    "sha512": "de2111b12ae3465b0185f1a30e4ff96440c2f53eed8c7e8fbbddd991c4e55a69",
@@ -234,6 +255,10 @@
   ".git/objects/a4/e57e670b58d3da00d500b1ec4f89fa9917eab4": {
    "sha512": "f307f100f22d8550e5391f87f4664d903338e99dad3921648478490f0b8707b8",
    "size": 1292
+  },
+  ".git/objects/a5/50aa5ba4c0f23d17e0e9c3e3a7e7cc876ec107": {
+   "sha512": "b7d3fbb5479f680e2e078ff7923e127d5d1db038ed598282e51c0f3ae679de7d",
+   "size": 404
   },
   ".git/objects/a6/400bfc64d7ff95b20106dcd07f7399469d7074": {
    "sha512": "bf408558ff61beb0fbc93cca0131a06bcd169301746c20a1944bd27210d722b4",
@@ -279,6 +304,10 @@
    "sha512": "c2b3ca7c1d9133c231868f0ce34b33c46fb8e6f25e9e2b457f146e51b455ab92",
    "size": 1384
   },
+  ".git/objects/c3/5b325d5d9506b593354a579f4eca3b19cb0aa1": {
+   "sha512": "06f0b960623d16ca561f25bc455793544126ec26ef083709147c3356d4288ef6",
+   "size": 1524
+  },
   ".git/objects/c7/42fb82faef0323633e7dd2f64af90b224f30be": {
    "sha512": "108b6f0614ffb5259fa4073db26a05258d1474b867bc7b165a7b4f26c0280127",
    "size": 85
@@ -286,6 +315,10 @@
   ".git/objects/cd/ae586c6f1969a1ef5886d5c7522a83fc93f6ed": {
    "sha512": "69cf4d1c8606f7c80c13ebfc63954f0d2dcd9017f7fe35d41c1c51730f1028d9",
    "size": 174
+  },
+  ".git/objects/d0/fb230a1ffa602be1dc4f62d619766ab4bfbe60": {
+   "sha512": "052be8aa65475175fa67b85efc298b72d71266f2940ea6dd3c9dc779dbd050be",
+   "size": 162
   },
   ".git/objects/d1/aa43eb6cc49681da60d62122dd6556bf208a6e": {
    "sha512": "6b2fd19ae8864f518d0a10e793e1029d816ef1f47b2fcd0188d517818b403f2e",
@@ -340,7 +373,7 @@
    "size": 107
   },
   ".git/refs/heads/master": {
-   "sha512": "2e909a96209f0e77f6ccee49f77d22fdce12c2c665ea69833ce8ad3c3047e849",
+   "sha512": "1cc152aa8d18136888f67ddd559c577a6207ec1e963a1712b91d0a5c4803748e",
    "size": 41
   },
   ".git/refs/remotes/origin/HEAD": {
@@ -348,33 +381,37 @@
    "size": 32
   },
   ".git/refs/remotes/origin/master": {
-   "sha512": "2e909a96209f0e77f6ccee49f77d22fdce12c2c665ea69833ce8ad3c3047e849",
+   "sha512": "1cc152aa8d18136888f67ddd559c577a6207ec1e963a1712b91d0a5c4803748e",
    "size": 41
   },
+  "favicon.ico": {
+   "sha512": "64b2de7df7f4ed743667e17255d93828a7cf31abd3a0c2f9c223a84eb15b625a",
+   "size": 1150
+  },
   "index.html": {
-   "sha512": "d58334ef61f9ee57cdb7b2f6cf4c018f53410569d8bb40b0b4256d6af158f06f",
-   "size": 3290
+   "sha512": "5fa47270e3008370ba5f16fde71e4e42333bce49b9f95c8cd7aca3f32240bd8d",
+   "size": 3474
   },
   "js/ZeroFrame.js": {
    "sha512": "672291eadcac614188b41e2df665cacf0c3b1b1d775cbf8291abab2d9e669f9d",
    "size": 2502
   },
   "specs.html": {
-   "sha512": "4eeade034617ce6c8333028e4441a382f1aebbeaaa08e1c7cdee8c83ffa19ee9",
-   "size": 590
+   "sha512": "1c340d5632c96de8f22ca86796be5ad081ff4803c5260cb5b73ad692ded17696",
+   "size": 774
   }
  },
  "ignore": "",
  "inner_path": "content.json",
- "modified": 1491993123,
+ "modified": 1491995764,
  "postmessage_nonce_security": true,
  "sign": [
-  65042986051183481468991286422755359101972745575757760273352800783514567396756,
-  68715066927713706734931585785575658516353756777968341608890612680725121998382
+  112110735146681221665449946131090229638163010236882405997296298752843870147863,
+  58719370694874721078600933732164145705361313576415262282958542707744937555322
  ],
  "signers_sign": "GxLd+2QoL+XYFuY6sx7AvCE2sCUZTCFNTiSmoH2L4noLdMA3ZS1WTE8ZGGoYrS1XMVkcqk77hEdZ0kbP3olKWbs=",
  "signs": {
-  "1HDMywbRZkin9HhmheaDFHCzaZhCfLhZLH": "Gw934sbGf1eeQTIP7piAeoD3PNLRo1X3lACnXBK9uGZkPvA/oz+O8LqSevuddP/Bzdj4P/ezjz8yu2mKQYpjLs4="
+  "1HDMywbRZkin9HhmheaDFHCzaZhCfLhZLH": "G/eWbyp+t9RWJT9KL8M+toAxtKZg8UAjvnLSgPoDyougH6LCjlwzoizdTR+SpesKH7OTOAn5QW+G8vrR+jbgpDo="
  },
  "signs_required": 1,
  "title": "Universal Smart Video Format",
