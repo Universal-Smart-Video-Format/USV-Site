@@ -1,7 +1,3 @@
-// Version 1.0.0 - Initial release
-// Version 1.1.0 (2017-08-02) - Added cmdp function that returns promise instead of using callback
-// Version 1.2.0 (2017-08-02) - Added Ajax monkey patch to emulate XMLHttpRequest over ZeroFrame API
-
 const CMD_INNER_READY = 'innerReady'
 const CMD_RESPONSE = 'response'
 const CMD_WRAPPER_READY = 'wrapperReady'
@@ -72,18 +68,6 @@ class ZeroFrame {
         }, cb)
     }
 
-    cmdp(cmd, params={}) {
-        return new Promise((resolve, reject) => {
-            this.cmd(cmd, params, (res) => {
-                if (res && res.error) {
-                    reject(res.error)
-                } else {
-                    resolve(res)
-                }
-            })
-        })
-    }
-
     send(message, cb=null) {
         message.wrapper_nonce = this.wrapper_nonce
         message.id = this.next_message_id
@@ -105,15 +89,8 @@ class ZeroFrame {
     onCloseWebsocket() {
         this.log('Websocket close')
     }
+}
 
-    monkeyPatchAjax() {
-        var page = this
-        XMLHttpRequest.prototype.realOpen = XMLHttpRequest.prototype.open
-        this.cmd("wrapperGetAjaxKey", [], (res) => { this.ajax_key = res })
-        var newOpen = function (method, url, async) {
-            url += "?ajax_key=" + page.ajax_key
-            return this.realOpen(method, url, async)
-        }
-        XMLHttpRequest.prototype.open = newOpen
-    }
+if(typeof module != "undefined" && typeof module.exports != "undefined") {
+    module.exports = ZeroFrame;
 }
