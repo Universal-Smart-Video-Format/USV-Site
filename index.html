@@ -4,7 +4,7 @@
   <title>Universal Smart Video Format - USV</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
-  <meta name="keywords" content="video, format, zip, png, svg, flac, ogg, zip-archives, usv">
+  <meta name="keywords" content="video, format, png, svg, flac, ogg, tar.gz-archives, usv, tar.gz">
   <style>body{font-family:Roboto}</style>
   <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
   <link rel="icon" href="icon.ico" type="image/x-icon">
@@ -19,53 +19,76 @@
 <tr>
 <td><center><img width="100px" src="img/modular.png"/>
 <h2>Modular</h2>
-<p>No need for complex binary editing and file duplication. Just open on any archiver as a .zip file, and change any data yourself. Version it on your favorite VCS without relying on Git LFS. <small>Don't want to edit it manually like a crazy scientist? It's ok, you can do it on a video editor, and the result will not be a brand new video, but just a edition.</small></p></center></td>
+<p>No need for complex binary editing and file duplication. Just open on any archiver as a .tar.gz file, and change any data yourself. Version it on your favorite VCS without relying on Git LFS. <small>Don't want to edit it manually like a crazy scientist? It's ok, you can do it on a video editor, and the result will not be a brand new video, but just a edition.</small></p></center></td>
 <td><center><img width="100px" src="img/upgradeable.png"/>
 <h2>Upgradeable</h2>
 <p>After editing, use <a href="https://aragon.org/" target="blank">Aragon</a>'s <a href="https://github.com/pandonetwork/pando" target="blank">Pando</a> or <a href="https://datproject.org/" target="blank">Dat Protocol</a> to version your changes, as a software being updated. Diff it as a natural folder.</p></center></td>
 <td><center><img width="100px" src="img/multiconnection.png"/>
-<h2>Multi-connection</h2>
-<p>USV videos are prioritarily downloaded at SQCIF quality (lower than 240p and even QCIF - and if you seed a higher quality, you need to seed the lowest to help newcomers), ideal for slow/limited connections. But it supports up to 8640p (16K).</p></center></td>
+<h2>Multi-connection (soon)</h2>
+<p>According to your network condition, USV videos are prioritarily downloaded at SQCIF quality (lower than 240p and even QCIF - and if you seed a higher quality, you could seed the lowest to help newcomers), ideal for slow/limited connections. But it supports up to 8640p (16K).</p></center></td>
 </tr>
 <tr>
 <td><center><img width="100px" src="img/multilanguage.png"/>
-<h2>Multi-language</h2>
-<p>Why limiting to subtitles if you can have the option to watch the speaking in your native language? Some people <a href="https://www.reddit.com/r/TrueFilm/comments/30ekfw/subtitles_and_the_effect_they_have_on_the_viewing/" target="blank">dislikes subtitles as being distractive</a>, making you lose details of scenes, and not accessible for who is blind. You can watch dubbed videos and contribute yourself with your team. A dubber is turning a serious talk into a comedy with a wrong dubbing? Changes the dubber through voting (Aragon). If you want to learn a new language or can't hear (or simply <a href="https://www.sbs.com.au/guide/article/2016/07/07/why-people-think-they-hate-subtitles" target="blank">hates dubbing and loves subtitles</a>), subtitles are also supported using <a href="https://www.w3.org/TR/webvtt1/" target="blank">VTT format</a>. <small>Prefers SRT? Not a web standard, but also supported as USV is modular.</small></p></center></td>
+<h2>Multi-language (soon)</h2>
+<p>Why limiting to subtitles if you can have the option to watch the speaking in your native language? Some people <a href="https://www.reddit.com/r/TrueFilm/comments/30ekfw/subtitles_and_the_effect_they_have_on_the_viewing/" target="blank">dislikes subtitles as being distractive</a>, making you lose details of scenes, and not accessible for who is blind. You can watch dubbed videos and contribute yourself with your team. A dubber is turning a serious talk into a comedy with a wrong dubbing? Change the dubber through voting (Aragon). If you want to learn a new language or can't hear (or simply <a href="https://www.sbs.com.au/guide/article/2016/07/07/why-people-think-they-hate-subtitles" target="blank">hates dubbing and loves subtitles</a>), subtitles are also supported using <a href="https://www.w3.org/TR/webvtt1/" target="blank">VTT format</a>. <small>Prefers SRT? Not a web standard, but also supported as USV is modular.</small></p></center></td>
 <td><center><img width="100px" src="img/multinetwork.png"/>
 <h2>Multi-network</h2>
 <p>USV is made for the web, and more for the decentralized web (DWeb, Web3 or web 3.0). It is designed to fit any network and protocol with its modularity and lightweight design.</p></center></td>
 <td><center><img width="100px" src="img/interactive.png"/>
-<h2>Interactive</h2>
+<h2>Interactive (soon)</h2>
 <p>Engage your audience in a brand new way. Instead of asking for a like or subscribe, show the buttons appearing on your hand. Use your creativity. There are more options for making your video interactive, such as cards, annotations and blockscreens.</p></center></td>
 </tr>
 <tr>
 <td><center><img width="100px" src="img/css.png"/>
-<h2>CSS (Cascating Style Sheets)</h2>
+<h2>CSS (Cascating Style Sheets) (soon)</h2>
 <p>Create or apply amazing effects, filters and transitions; as if your video were a webapp/HTML page.</p></center></td>
 <td><center><img width="100px" src="img/multidevice.png"/>
 <h2>Multi-device</h2>
 <p>By being lightweight, USV videos are playable even on a smart-watch. By being quality-scalable, it can be finely playable on a 16K televisor and upper through its modulary.</p></center></td>
 <td><center><img width="100px" src="img/streammable.png"/>
 <h2>Streammable</h2>
-<p>Like .zip, no compressed file formats does support live-streamming? Being a folder on classic web, Aragon's Pando or Dat Protocol makes USV streammable. Quality-scaling makes streams accessible for any device or connection.</p></center></td>
+<p>Like .zip, no compressed file formats does support live-streamming? Being a folder on classic web, Aragon's Pando or Dat Protocol makes USV streammable. Quality-scaling makes streams accessible for any device or connection. Also, a .usv file is a .tar.gz archive, <a href="https://stackoverflow.com/questions/48475351/untar-pack-a-tar-file-while-downloading-is-it-streamable" target="blank">which is streammable</a>.</p></center></td>
 </tr>
 </tbody>
 </table>
 <small>Table made thanks to <a href="https://divtable.com/generator/" target="blank">divtable.com</a>. Not a required credit, but voluntary act of thanks.</small>
 </center>
-  <p align="center"><p align="center">
-<img width="300px" alt="What is" src="img/whatis.png" title="What is"></p>
-USV (Universal Smart Video), as the name says, is a borning web-standard format for smart/interactive videos. We can call it "the video of the future".
-<p align="center"><img width="300px" alt="What does" src="img/whatdoes.png" title="What does"></p>
-Do you imagine if we have the power of <a href="https://youtube.com" target="blank">YT</a>'s videos in a local file on our own devices? A USV file can have credits to the authors, multiple language subtitles/audios, indicative rating, tags, etc. All it embedded into a single video file! Please read more in <a href="specs.html">the specs</a> to know.
-  <p align="center"><img width="300px" alt="How works" src="img/howworks.png" title="How works"></p>
-A .USV file is just a compressed archive (.zip) with the extension changed to .usv or a folder on Dat/IPFS, containing this structure:
-  <p align="center"><img width="800px" src="img/structure.png"></p>The images/frames can be in both PNG or SVG, and the audios in both OGG or FLAC. All other infos are stored in XML files.<h2>Folders</h2><ul><li><b>AUDIO</b> folder contains the audio files (or a unique audio file) and (if applicable) the language folders containing the respective audios.
-  </li><li>Except the files (images), the same occurs in the <b>FRAMES</b> folder. The files need to be named in crescent numbers.</li>
-  <li><b>IMG</b> folder contains the images that will be used in the video, such as tags, the thumbnail, etc.</li></ul>
-  <h2>Files</h2>
-  <ul><li><b>AUDIO.XML</b> contains the time each audio will be played. In case of only one audio file, a unique tag will tell that it will start at 00:00.</li></ul><p align="center"><img src="img/audio.png"></p><ul><li><b>FRAMES.XML</b> constains the speed a quantity of frames will be played till a frame-number.</li></ul><p align="center"><img src="img/frames.png"></p><ul><li><b>INFO.XML</b> contains infos about the video, such as the version (of the format), credits, main language, if it is fictional, indicative rating, if it is paid and if it is a muted-loop video (alternative to GIF).</li></ul><p align="center"><img src="img/info.png"></p><ul><li><b>TAGS.XML</b> contains the type of tag and the time it will be played.</li></ul><p align="center"><img src="img/tags.png"></p>
-<br/><center>Last update in 08/05/2019 at 03:51</center></br>
+
+<h1>FAQs - Frequently Asked Questions</h1>
+<h4>USV is a compressed file or a folder containing frames as images. Compressed file isn't streammable? And as folder, wouldn't it overload by downloading image by image? Why not use sprite sheets?</h4>
+<p>Compressed files like .zip aren't streammable, but USV file uses .tar.gz, which <a href="https://stackoverflow.com/questions/48475351/untar-pack-a-tar-file-while-downloading-is-it-streamable" target="blank">is streammable</a>. As folder, by following HTTP/2 features, sprite sheets shouldn't be used. USV is open for decentralized networks/web3 that implement transport protocols that, like HTTP/2, supports stream of multiple images at the same request.</p>
+<ul>
+<li>USV file is in .tar.gz</li>
+<li>.tar.gz is streammable</li>
+<li>USV video is compressed and streammable</li>
+<li>Even as folder with individual images, a USV video is fast if using HTTP/2</li>
+<li>ZeroNet/Dat/IPFS should have a transport that is fastest as HTTP/2</li>
+</ul>
+<h4>How to download a .tar.gz while extracting it, in a web browser?</h4>
+<p>That is yet being discussed.</p>
+<ul><li>Web Workers could be used</li></ul>
+<h4>I don't want to seed the folder and the .tar.gz of the same USV video!</h4>
+<p>The idea is to not support a folder, but just the .tar.gz file.</p>
+<h4>But if versioning a .tar.gz with Dat, it will version a binary, which is a bloat!</h4>
+<p>True. Which is against the USV's point of being versionable. Also, using folders is bad for a video format, as you seed a folder, and other will seed a archive, splitting the same video in different formats, which is bad.</p>
+<ul>
+<li>Dat and IPFS/Pando should receive a update to version inside a compressed file</li>
+<li>Alternative workaround: video being a folder (Dat), and frames being .tar.gz file. But that is bad agains't its shareability (or not, as Dat is a different protocol, so one shares .usv - .tar.gz - for direct sharing, and other shares its Dat/IPFS URL as folder)</li>
+</ul>
+<h4>Why JavaScript (usv.js and its US1 codec) instead of native language?</h4>
+<p>Following the openness of the Web and respecting the big amount of web developers that uses JavaScript (and the growing amount of web apps using PWA, Cordova and Electron), USV prefers to mainly support JavaScript. Closed-source/proprietary ARM and x86 are natively compatible with traditional video formats, but chips based on RISK-V could have JavaScript as native. But instead of being a JS-maximist - as a truly open and modular format - USV supports other languages, codecs and everything as its whole structure is replaceable. Regarding JavaScript, USV uses WASM (WebAssembly).</p>
+<h4>Is any USV video ready to have its Dat/IPFS URL?</h4>
+<p>Yes, as when Dat/IPFS/Pando supports versioning inside a compressed file, just upgrade the video as a compressed file, and its versioning will be kept.</p>
+<ul>
+<li>Just create a USV video, upload its folder to ZeroNet/Dat/IPFS, and change/upgrade it when needed.</li>
+</ul>
+<h4>I want to directly download a 240p video instead of firstly downloading its SQCIF.</h4>
+<p>USV automatically skips a lower quality according to your network condition, and for a first time (usv.js) asks if user wants to seed the SQCIF version of videos.</p>
+<h4>If I download a 240p video, I don't want to seed its SQCIF quality!</h4>
+<p>You aren't obligued to seed it, but if you do this voluntary work, you will be helping newcomers that haven't a good network connection.</p>
+
+<hr/>
+<center>Last update in 10/05/2019 at 01:14</center></br>
 <copyright><center>(c) 2017-2019 Universal Smart Video (.USV format) by <a href="https://openplanetinitiative.github.io/" target="blank">Open Planet Initiative</a>.</center></copyright>
  </body>
 </html>
